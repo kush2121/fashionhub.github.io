@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FashionHub Website</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+
+            <a href="home.html"><img src="E:\FH-img\kush.jpg" class="logo" ></a>
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </div>
+     </div>
+
+<!----------------single product--------------->
+<section class="single-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="E:\FH-img\jkt1.jpg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="E:\FH-img\jkt2.jpg" class="d-block w-100"  >
+                      </div>
+                      <div class="carousel-item">
+                        <img src="E:\FH-img\jkt3.jpg" class="d-block w-100"  >
+                      </div>
+                      <a class="carousel-control-prev" href="#product-slider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#product-slider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="col-md-7">
+            <p class="new-arrival text-center">NEW</p>
+            <h2>Men's Wear</h2>
+            <p>Product Code: IRSC2020</p>
+
+            <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <p class="price">USD $15.00</p>
+                    <p><b>Availability:</b> In Stock</p>
+                    <p><b>Condition:</b> New</p>
+                    <p><b>Brand:</b> XYZ Company</p>
+                    <labal>Quantity:</labal>
+                    <input type="text" value="1">
+                    <button type="button" class="btn btn-primary">Add to Cart</button>
+        </div>
+
+        </div>
+    </div>
+
+
+   
+</section>
+
+<!-----------------------product-description--------------->
+<section class="product-description">
+    <div class="container">
+        <h6>Product Description</h6>
+        <p>We have all type of productas available with reasonable price & best quantity. Our Hub is famous in india. Our services is also famous in india.
+            We have all type of productas available with reasonable price & best quantity. Our Hub is famous in india. Our services is also famous in india.
+        </p>
+        <p>We have all type of productas available with reasonable price & best quantity. Our Hub is famous in india. Our services is also famous in india.
+            We have all type of productas available with reasonable price & best quantity. Our Hub is famous in india. Our services is also famous in india.
+        </p>
+
+        <hr>
+    </div>
+    <div class="similar">
+        <div class="container">
+            <div class="title-box">
+                <h2>Similar</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="E:\FH-img\onsale1.jpg"></a>
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Business Balzer</h3>
+                        <h5>$40.00</h5>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"> <img src="E:\FH-img\onsale2.jpg" ></a>
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <h3>Smart Watch</h3>
+                        <h5>$50.00</h5>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"> <img src="E:\FH-img\onsale3.jpg"></a>
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <h3>Formarl Shoes</h3>
+                        <h5>$500.00</h5>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"> <img src="E:\FH-img\onsale4.jpg"></a>
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <h3>Traveling Bags</h3>
+                        <h5>$300.00</h5>
+                    </div>
+                </div>
+    
+    
+    
+            </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-----------------footer---------------->
+     <section class="footer">
+        <div class="container tex-center">
+            <div class="row">
+                    <div class="col-md-3">
+                        <h1>Useful Links</h1>
+                        <p>Privacy policy</p>
+                        <p>Terms of Use</p>
+                        <p>Return policy</p>
+                        <p>Discount Coupons</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h1>Company</h1>
+                        <p>About Us</p>
+                        <p>Contact Us</p>
+                        <p>Career</p>
+                        <p>Affiliate</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h1>Follow US On</h1>
+                        <p><i class="fa fa-facebook-official"></i> Facebook</p>
+                        <p><i class="fa fa-youtube-play"></i> YouTube</p>
+                        <p><i class="fa fa-linkedin"></i> Linkedin</p>
+                        <p><i class="fa fa-twitter"></i> Twitter</p>
+                    </div>
+                    <div class="col-md-3 footer-image">
+                        <h1>Download App</h1>
+                        <img src="E:\FH-img\app.png">
+                        </div>
+                        </div>
+                    <hr>
+                    <p class="copyright">Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+        </div>
+    </section>
+    
+    <script>
+        function openmenu()
+        {
+           
+               document.getElementById("side-menu").style.display="block";
+               document.getElementById("menu-btn").style.display="none";
+               document.getElementById("close-btn").style.display="block";
+        }
+        function closemenu()
+        {
+               document.getElementById("side-menu").style.display="none";
+               document.getElementById("menu-btn").style.display="block";
+               document.getElementById("close-btn").style.display="none";
+       }
+    </script>
+
+   </body>
+</html>
