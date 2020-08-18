@@ -36,33 +36,13 @@
 }
 
 @media (max-width:980px) {
-    .container {
-        margin-top: 30px;
-    }
-
-    .img-warp {
-        width: 100%;
-    }
-
     .img-warp img {
-        margin-top: 190px;
-        width: 130%;
-        height: 400px;
-        padding: 10px;
-        border-radius: 50%;
-        box-shadow: 0 0 10px #999999;
-    }
 
-    #aboutus h2 {
-        margin-bottom: 40px;
-        margin-top: 70px;
-        color: rgb(18, 18, 99);
+        width: 120%;
+
     }
 
     #aboutus p {
-        font-style: italic;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: rgb(35, 35, 83);
         font-size: 12px;
     }
 
